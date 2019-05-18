@@ -1,23 +1,18 @@
-import React, { Component } from 'react';
-import {BrowserRouter, Switch, Route } from 'react-dom';
+import React from 'react';
+import {BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 
 import "./styles/reset.css";
 
-class App extends Component {
-    render() {
-      return (
+const App = () => (
         <BrowserRouter>
           <Switch>
-            <Route path="/" component={Login} />
-            <Route path="/Cadastro" component={Cadastro} />
-            <Route path="*" component={Login} />
+            <Route path="/" exact component={Login} />
+            <Route path="/Cadastro" exact component={Cadastro} />
+            <Redirect path="*" to='/' />
           </Switch>
         </BrowserRouter>
-      );
-    }
-}
-
+);
 export default App;
