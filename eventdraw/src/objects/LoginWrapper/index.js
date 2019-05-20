@@ -7,12 +7,13 @@ const LoginWrapper = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color-primary);
+    background-color:  #ac3434;
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
     padding-top: 120px;
     padding-bottom: 80px;
+    text-align:center;
 `;
 
 export default LoginWrapper;
