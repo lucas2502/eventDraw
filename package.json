@@ -1,0 +1,26 @@
+{
+  "name": "eventDraw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas2502/eventDraw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas2502/eventDraw/issues"
+  },
+  "homepage": "https://github.com/lucas2502/eventDraw#readme",
+  "dependencies": {
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
