@@ -10,6 +10,10 @@ const formLogin = (() => {
             width: 300px;
             height: 500px;
             background-color: #fff;
+            margin: 100px auto;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
         }
 
         `;
@@ -23,16 +27,17 @@ const formLogin = (() => {
             id: "email",
             placeholder: "nome.sobrenome@seuemail.com.br",
             type: "email"
-        });
+            });
         const $labelPass = labelEvent.render("Senha");
         const $inputPass = inputEvent.render({
             id: "password",
             placeholder: "*******",
             type: "password"
-        });
+            });
 
 
         return `
+
             ${$labelEmail}
             ${$inputEmail}
 

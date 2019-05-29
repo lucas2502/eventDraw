@@ -5,9 +5,10 @@ const inputEvent = (() => {
         const $head = document.querySelector("head");
         const $style = document.createElement("style");
 
-        $style.textContent`
+        $style.textContent = `
         .input-event {
-            width: 70vw;
+            width: 250px;
+            height: 20px;
             font-size: 18px;
             font-weight: bold;
             border-bottom: 1px solid rgb(85, 64, 66, 0.5) ;
@@ -15,9 +16,8 @@ const inputEvent = (() => {
             padding-bottom: 5px;
             opacity: 0.5;
             display: flex;
-            aling-content: space-between;
-            
-        }
+            aling-content: space-between;   
+        }   
         `;
 
         $head.insertAdjacentElement("beforeend", $style);

@@ -10,8 +10,7 @@ const labelEvent = (() => {
             color: #3a4042;
             font-size: 16px;
             display: flex;
-            aling-content: space-between;
-            margin-top: 29px;
+            aling-content: space-between;   
         }
         `;
 
