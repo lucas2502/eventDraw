@@ -7,8 +7,8 @@ const formLogin = (() => {
 
         $style.textContent = `
         .login {
-            width: 30%;
-            height: 30%;
+            width: 300px;
+            height: 500px;
             background-color: #fff;
         }
 
